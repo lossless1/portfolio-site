@@ -1,0 +1,158 @@
+Volodymyr Saakian  
+Software Engineer
+resume profile picture
+volodymyr.saakian@gmail.com
++420728042791
+Prague, Czech
+30 Jul 1996
+linkedin.com/in/vladimir-saakyan
+github.com/lossless1
+Profile
+Software Developer with 8 years of experience:
+
+•Extensive work in developing/supporting web apps and SPAs using React and cloud technologies (Firebase, Dynamo);
+•Built and maintained large-scale React + Redux, React-Query, and Mobx apps with a focus on security;
+•Skilled in creating web admin panels using NodeJS (NestJS, Express) and Strapi;
+•Expertise in stabilizing and scaling web applications;
+•Knowledgeable in Microfrontend (MFE) architecture for modular frontend development;
+•Experienced with DevOps, CI/CD tools, and AWS, using GitLab CI/CD for efficient development and deployment;
+Professional Experience
+Lead Software Engineer, Ciklum
+Mar 2024 – present
+- Mentorship & Team Support: Lead onboarding and mentorship, fostering a collaborative and high-performing team environment.
+
+- Global Product Rollouts: Strategically plan and execute product rollouts in new markets, ensuring seamless integration and local compliance.
+
+- Critical Functionality Development: Design and implement key booking features, enhancing user experience and system reliability.
+
+- Booking Systems Expertise: Research, select, and integrate advanced reservation systems, ensuring efficiency and user-friendliness.
+
+- Team Communication: Facilitate effective communication and provide ongoing support to team members, ensuring smooth workflows.
+
+Tech Stack: Technical Leadership, Leading Development Teams, System Design, Solutions Engineering, TypeScript, Node.js, AWS, GraphQL, Microfrontend, Gitlab
+
+Architecture: AWS, S3, Lambda, Cloudformation, API Gateway, etc.
+
+Full Stack JS Developer, Ciklum
+Feb 2022 – Mar 2024
+ | 
+Prague, Czech
+TUI is a prominent touristic company is modernizing its architecture with Microfrontend (MFE) technologies. They are enhancing the current codebase and creating high-load Node.js microservices on serverless AWS Lambda, all while leveraging the power of Microfrontend technology stack.
+
+Tech Stack: React, NodeJS, Express, APPSync, Graphql
+
+Architecture: Kubernetes, AWS, S3, Lambda, Cloudformation, API Grateway, etc.
+
+Full Stack JS Developer, Lohika
+Dec 2018 – Feb 2022
+ | 
+Odesa, Ukraine
+Huge high load project with many solutions based on Node JS microservices. Constructor of client reports to show performance metrics. It tool was created for business analytics inside the company only for internal use.
+
+Tech Stack: React + Redux + Saga, NodeJs, Nestjs, Lerna for monorepo, PostgreSQL.
+
+Architecture: Docker, Kubernetes, AWS, etc.
+
+Prototype application to help people with disabilities. React + Redux with Nestjs.
+
+Using a module system with lerna integration to separate working modules. For instance, divide common components and core business logic.
+
+Then creating almost the same application but in a long term period.
+
+Tech Stack: Docker, React + Redux + Thunk, Nest js, 
+
+Certificates
+AWS Solution Architect Certification: I have fortified my expertise in designing and implementing scalable solutions on the AWS platform. This achievement underscores my commitment to staying abreast of the latest cloud technologies, ensuring that I bring valuable insights and proficiency in cloud architecture to every project.
+Passport to Success: Take Off for New Managers:: 6 Modules with the following topics 
+ Core principles of a leadership role;  
+ Motivation: How to find the keys to your team; 
+ Leadership styles & their impact;  
+ Leadership styles in case studies; 
+ Feedback giving: Guidelines & Principle; 
+ Feedback giving & receiving in case studies; 
+ 12 hours of training 
+ September-October 2024
+Languages
+English
+Czech
+Russian
+Architecture: AWS, Jenkins, Nexus package storage, etc.
+
+Full stack Developer, Luxoft
+Jan 2018 – Dec 2018
+ | 
+Odesa, Ukraine
+Rebranding UI of Saas platform for customer.
+
+Huge security project with the removal of vulnerabilities associated with external attacks.
+
+Augment or replacing WAF with always-on protection against both the vulnerabilities.
+
+Distinguish between an actual attack and a legitimate request. Protect production applications from zero-day threats.
+
+Send log and exploit events to any SIEM or log manager.
+
+Tech Stack: React, NodeJs, Docker, Cassandra, Storm, Consul, Registrator, PostgreSQL, Java(8), HaProxy, etc ...
+
+Front-end Developer, CodeDiller
+May 2017 – Jan 2018
+ | 
+Odesa, Ukraine
+I work for an outsourcing company that specializes in high-quality web services using progressive technologies. My role focuses on front-end development of applications with Angular 4+, utilizing various modules like lodash and NgPrime.
+
+I collaborate closely with the UI/UX team to improve product quality and implement UI designs using HTML5 (Haml) and SCSS with Webpack. I’ve built signup and login pages with Angular 4 and OAuth, and all projects use REST APIs built on PHP (Laravel).
+
+I also write TypeScript definitions for libraries lacking them in the DefinitelyTyped repository and provide multi-language support with ngx-translate. Additionally, I track and resolve defects using Trello and JIRA.
+
+Full stack Developer, Simple Pay
+Jul 2015 – May 2017
+ | 
+Odesa, Ukraine
+Company oriented to create billing systems to equipment which providing pay services. Working in big product company Simple Pay which creates, provides terminal self-serving.
+
+Discussed and analyzed product design with Product Managers, Design team and Business Managers.
+
+Worked on pay terminals for different countries, using technologies like Yii2 for PHP, AMQP, Angular2 for front end developing, etc.
+
+Skills
+Frontend
+React + Redux/MobX, ES6+.
+
+HTML 5, CSS 3: Sass, BluePrint, AntDesign, Tailwind, Flexbox, Grid, Shadcn
+
+Backend
+Typescript/Javascript, NestJs, HapiJS, Express, Adonis;
+
+Authorization
+OAuth2, Auth0, JWT Token, OpenID Connection
+
+Data processing:
+RxJs, Lodash, Ramda
+
+Databases
+SQL: MySql, PostgreSQL, Vertica
+
+NoSQL: MongoDB, Cassandra, DynamoDB, Firebase
+
+Message Brokers
+RabbitMQ, Kafka, SQS
+
+Process Manager
+pm2
+
+Virtualization
+Docker, Kubernetes
+
+Cloud Services
+AWS, GCP
+
+Organizations
+AtomSpace, Frontend Mentor Volonteer
+Aug 2017 – present
+ | 
+Odesa, Ukraine
+AtomSpace - educational tech space for teenagers.
+
+I work in a vast open space, educating motivated and talented children aged 14 to 18 in the fundamentals of front-end development. My role involves teaching new technologies, including HTML, CSS, JS, and Node.js. Currently, I'm working with a few children on various projects, one of which involves assembling new quadcopters using components from AliExpress.
+
+In addition to my work in education and front-end development, I am also skilled in playing basketball and enjoy the sport immensely.
