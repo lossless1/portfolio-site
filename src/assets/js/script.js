@@ -137,13 +137,14 @@ const setupRedirections = () => {
 };
 
 // Form submission with validation
-const handleFormSubmit = (e) => {
+const handleFormSubmit = async (e) => {
   e.preventDefault();
   
   const nameInput = document.getElementById('name');
   const emailInput = document.getElementById('email');
   const subjectInput = document.getElementById('subject');
   const messageInput = document.getElementById('message');
+  const submitBtn = contactForm.querySelector('button[type="submit"]');
   
   // Basic validation
   let isValid = true;
@@ -177,30 +178,45 @@ const handleFormSubmit = (e) => {
   }
   
   if (isValid) {
-    // In a real application, you would send the form data to a server
-    // For this demo, we'll just show a success message
-    const formData = {
-      name: nameInput.value,
-      email: emailInput.value,
-      subject: subjectInput.value,
-      message: messageInput.value
-    };
+    // Disable submit button
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
     
-    console.log('Form submitted with data:', formData);
-    
-    // Show success message
-    const successMessage = document.createElement('div');
-    successMessage.className = 'success-message';
-    successMessage.textContent = 'Message sent successfully!';
-    contactForm.appendChild(successMessage);
-    
-    // Reset form
-    contactForm.reset();
-    
-    // Remove success message after 3 seconds
-    setTimeout(() => {
-      successMessage.remove();
-    }, 3000);
+    try {
+      // Submit to Formspree
+      const response = await fetch('https://formspree.io/f/xgvznboz', {
+        method: 'POST',
+        body: new FormData(contactForm),
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+      
+      if (response.ok) {
+        // Show success message
+        const successMessage = document.createElement('div');
+        successMessage.className = 'success-message';
+        successMessage.textContent = 'Message sent successfully!';
+        contactForm.appendChild(successMessage);
+        
+        // Reset form
+        contactForm.reset();
+        
+        // Remove success message after 3 seconds
+        setTimeout(() => {
+          successMessage.remove();
+        }, 3000);
+      } else {
+        throw new Error('Form submission failed');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('There was an error sending your message. Please try again.');
+    } finally {
+      // Re-enable submit button
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Send Message';
+    }
   }
 };
 
