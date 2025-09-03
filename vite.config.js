@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
+import { copyFileSync } from 'fs';
 
 export default defineConfig({
   base: './', // Use relative paths
@@ -22,4 +23,13 @@ export default defineConfig({
   assetsInclude: ['**/*.pdf', '**/*.jpg', '**/*.jpeg', '**/*.png', '**/*.gif', '**/*.svg'],
   // Ensure PDF files are treated as assets and copied to build
   publicDir: 'src/assets',
+  plugins: [
+    {
+      name: 'copy-cname',
+      writeBundle() {
+        // Copy CNAME file to dist folder for GitHub Pages
+        copyFileSync('CNAME', 'dist/CNAME');
+      }
+    }
+  ]
 });
