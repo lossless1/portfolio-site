@@ -1,0 +1,316 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - 'link "{VS}" [ref=e4] [cursor=pointer]':
+        - /url: "#hero"
+      - generic [ref=e5]:
+        - button "Toggle theme" [ref=e6] [cursor=pointer]:
+          - generic [ref=e7]: 
+        - button "Toggle menu" [ref=e8] [cursor=pointer]
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - generic [ref=e16]: "001"
+            - generic [ref=e18]: Lead Software Engineer
+          - heading "Volodymyr Saakian" [level=1] [ref=e19]:
+            - generic [ref=e20]: Volodymyr
+            - generic [ref=e21]: Saakian
+          - paragraph [ref=e22]: 10+ years crafting scalable web applications, microfrontend architectures, and cloud-native solutions for enterprise clients.
+          - generic [ref=e23]:
+            - link "Get in touch " [ref=e24] [cursor=pointer]:
+              - /url: "#contact"
+              - generic [ref=e25]: Get in touch
+              - generic [ref=e26]: 
+            - button " Download CV" [ref=e27] [cursor=pointer]:
+              - generic [ref=e28]: 
+              - generic [ref=e29]: Download CV
+          - generic [ref=e30]:
+            - link "LinkedIn" [ref=e31] [cursor=pointer]:
+              - /url: https://linkedin.com/in/vladimir-saakyan
+              - generic [ref=e32]: 
+            - link "GitHub" [ref=e33] [cursor=pointer]:
+              - /url: https://github.com/lossless1
+              - generic [ref=e34]: 
+            - link "Email" [ref=e35] [cursor=pointer]:
+              - /url: mailto:volodymyr.saakian@gmail.com
+              - generic [ref=e36]: 
+        - generic [ref=e37]:
+          - img "Volodymyr Saakian" [ref=e39]
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - generic [ref=e43]: "0"
+              - generic [ref=e44]:
+                - text: Years
+                - text: Experience
+            - generic [ref=e45]:
+              - generic [ref=e46]: "0"
+              - generic [ref=e47]:
+                - text: Projects
+                - text: Delivered
+            - generic [ref=e48]:
+              - generic [ref=e49]: "0"
+              - generic [ref=e50]:
+                - text: Companies
+                - text: Worked With
+      - generic [ref=e53]: Scroll
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]: "002"
+        - heading "About" [level=2] [ref=e57]
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - paragraph [ref=e61]:
+            - text: I build things for the web that
+            - emphasis [ref=e62]: scale
+            - text: .
+          - paragraph [ref=e63]: Software Developer with 10 years of experience in developing and supporting web applications and SPAs using React and cloud technologies (Firebase, DynamoDB). I've built and maintained large-scale React + Redux, React-Query, and MobX applications with a focus on security.
+          - paragraph [ref=e64]: Skilled in creating web admin panels using Node.js (NestJS, Express) and Strapi, with expertise in stabilizing and scaling web applications. Deep knowledge in Microfrontend (MFE) architecture for modular frontend development and experience with DevOps, CI/CD tools, and AWS.
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]: Location
+            - generic [ref=e68]: Prague, Czech Republic
+          - generic [ref=e69]:
+            - generic [ref=e70]: Specialization
+            - generic [ref=e71]: Full Stack & MFE Architecture
+          - generic [ref=e72]:
+            - generic [ref=e73]: Current Role
+            - generic [ref=e74]: Lead Software Engineer @ Ciklum
+          - generic [ref=e75]:
+            - generic [ref=e76]: Focus
+            - generic [ref=e77]: React, Node.js, AWS, Microfrontends
+    - generic [ref=e78]:
+      - generic [ref=e79]:
+        - generic [ref=e80]: "003"
+        - heading "Experience" [level=2] [ref=e81]
+      - generic [ref=e83]:
+        - article [ref=e84]:
+          - generic [ref=e88]:
+            - generic [ref=e89]:
+              - generic [ref=e90]:
+                - heading "Lead Software Engineer" [level=3] [ref=e91]
+                - text: Ciklum
+              - generic [ref=e92]: 2024 — Present
+            - paragraph [ref=e93]: Providing mentorship and team support, leading product rollouts in new markets, and developing critical booking functionality.
+            - list [ref=e94]:
+              - listitem [ref=e95]: Lead onboarding and mentorship, fostering a collaborative and high-performing team environment
+              - listitem [ref=e96]: Design and implement key booking features, enhancing user experience and system reliability
+              - listitem [ref=e97]: Facilitate effective communication and provide ongoing support to team members
+        - article [ref=e98]:
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - generic [ref=e104]:
+                - heading "Full Stack JS Developer" [level=3] [ref=e105]
+                - text: Ciklum
+              - generic [ref=e106]: 2022 — 2024
+            - paragraph [ref=e107]: Modernized TUI's architecture with Microfrontend (MFE) technologies, enhancing the codebase and creating high-load Node.js microservices on serverless AWS Lambda.
+            - list [ref=e108]:
+              - listitem [ref=e109]: Developed with React, NodeJS, Express, AppSync, GraphQL
+              - listitem [ref=e110]: Utilized AWS technologies including S3, Lambda, CloudFormation, and API Gateway
+              - listitem [ref=e111]: Implemented Microfrontend architecture for modular frontend development
+        - article [ref=e112]:
+          - generic [ref=e116]:
+            - generic [ref=e117]:
+              - generic [ref=e118]:
+                - heading "Full Stack JS Developer" [level=3] [ref=e119]
+                - text: Lohika
+              - generic [ref=e120]: 2018 — 2022
+            - paragraph [ref=e121]: Worked on a high-load project with Node.js microservices, creating a constructor for client reports to show performance metrics.
+            - list [ref=e122]:
+              - listitem [ref=e123]: Developed with React + Redux + Saga, NestJS, and PostgreSQL
+              - listitem [ref=e124]: Utilized Lerna for monorepo management
+              - listitem [ref=e125]: Built prototype applications for people with disabilities using React and NestJS
+        - article [ref=e126]:
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - generic [ref=e132]:
+                - heading "Software Engineer" [level=3] [ref=e133]
+                - text: Luxoft
+              - generic [ref=e134]: 2017 — 2018
+            - paragraph [ref=e135]: Developed enterprise-level applications with focus on scalable architecture and performance optimization. Worked with distributed systems and modern web technologies.
+            - list [ref=e136]:
+              - listitem [ref=e137]: Built responsive web applications using React and modern JavaScript
+              - listitem [ref=e138]: Integrated with RESTful APIs and microservices architecture
+              - listitem [ref=e139]: Collaborated with cross-functional teams on enterprise projects
+        - article [ref=e140]:
+          - generic [ref=e144]:
+            - generic [ref=e145]:
+              - generic [ref=e146]:
+                - heading "Frontend Developer" [level=3] [ref=e147]
+                - text: CodeDealer
+              - generic [ref=e148]: 2016 — 2017
+            - paragraph [ref=e149]: Specialized in frontend development and user experience design, creating interactive and responsive web interfaces for various client projects.
+            - list [ref=e150]:
+              - listitem [ref=e151]: Developed modern web interfaces using JavaScript, HTML5, and CSS3
+              - listitem [ref=e152]: Implemented responsive design principles and cross-browser compatibility
+              - listitem [ref=e153]: Worked on optimization for web performance and user experience
+        - article [ref=e154]:
+          - generic [ref=e157]:
+            - generic [ref=e158]:
+              - generic [ref=e159]:
+                - heading "Junior Developer" [level=3] [ref=e160]
+                - text: Atomspace
+              - generic [ref=e161]: 2015 — 2016
+            - paragraph [ref=e162]: Started professional development career working on web applications and learning modern development practices in a collaborative environment.
+            - list [ref=e163]:
+              - listitem [ref=e164]: Developed foundational skills in web development technologies
+              - listitem [ref=e165]: Contributed to team projects and learned agile development practices
+              - listitem [ref=e166]: Gained experience with version control and collaborative coding
+    - generic [ref=e167]:
+      - generic [ref=e168]:
+        - generic [ref=e169]: "004"
+        - heading "Skills" [level=2] [ref=e170]
+      - generic [ref=e172]:
+        - generic [ref=e173]:
+          - generic [ref=e175]:
+            - generic [ref=e176]: React + Redux/MobX, ES6+
+            - generic [ref=e177]: 95%
+          - generic [ref=e180]:
+            - generic [ref=e181]: NodeJS (NestJS, Express)
+            - generic [ref=e182]: 90%
+          - generic [ref=e185]:
+            - generic [ref=e186]: TypeScript / JavaScript
+            - generic [ref=e187]: 92%
+          - generic [ref=e190]:
+            - generic [ref=e191]: AWS, Cloud Technologies
+            - generic [ref=e192]: 85%
+          - generic [ref=e195]:
+            - generic [ref=e196]: HTML5, CSS3, Sass, Tailwind
+            - generic [ref=e197]: 88%
+          - generic [ref=e200]:
+            - generic [ref=e201]: Microfrontend Architecture
+            - generic [ref=e202]: 82%
+        - generic [ref=e204]:
+          - heading "Other Technologies" [level=3] [ref=e205]
+          - generic [ref=e206]:
+            - generic [ref=e207]: GraphQL
+            - generic [ref=e208]: PostgreSQL
+            - generic [ref=e209]: MongoDB
+            - generic [ref=e210]: DynamoDB
+            - generic [ref=e211]: Firebase
+            - generic [ref=e212]: Docker
+            - generic [ref=e213]: Kubernetes
+            - generic [ref=e214]: CI/CD
+            - generic [ref=e215]: GitLab
+            - generic [ref=e216]: OAuth2
+            - generic [ref=e217]: JWT
+            - generic [ref=e218]: RxJS
+          - generic [ref=e219]:
+            - heading "Certification" [level=3] [ref=e220]
+            - link " AWS Certified " [ref=e221] [cursor=pointer]:
+              - /url: https://www.credly.com/badges/0639fa8e-be47-4440-ae56-2d79e00f3298
+              - generic [ref=e222]: 
+              - generic [ref=e223]: AWS Certified
+              - generic [ref=e224]: 
+    - generic [ref=e225]:
+      - generic [ref=e226]:
+        - generic [ref=e227]: "005"
+        - heading "Projects" [level=2] [ref=e228]
+      - generic [ref=e230]:
+        - button "All" [ref=e231] [cursor=pointer]
+        - button "Full Stack" [ref=e232] [cursor=pointer]
+        - button "Frontend" [ref=e233] [cursor=pointer]
+        - button "Backend" [ref=e234] [cursor=pointer]
+      - generic [ref=e235]:
+        - article [ref=e236]:
+          - generic [ref=e237]:
+            - img "TUI Microfrontend Architecture" [ref=e238]
+            - link "" [ref=e240] [cursor=pointer]:
+              - /url: https://my.tui.com
+              - generic [ref=e241]: 
+          - generic [ref=e242]:
+            - generic [ref=e243]: Full Stack
+            - heading "TUI Microfrontend Architecture" [level=3] [ref=e244]
+            - paragraph [ref=e245]: Modernized TUI's tourism platform with Microfrontend technology, enhancing the codebase and creating high-load Node.js microservices on serverless AWS Lambda.
+            - link "View Site " [ref=e246] [cursor=pointer]:
+              - /url: https://my.tui.com
+              - text: View Site
+              - generic [ref=e247]: 
+        - article [ref=e248]:
+          - generic [ref=e249]:
+            - img "Client Reports Constructor" [ref=e250]
+            - generic [ref=e252]: NDA
+          - generic [ref=e253]:
+            - generic [ref=e254]: Frontend
+            - heading "Client Reports Constructor" [level=3] [ref=e255]
+            - paragraph [ref=e256]: McKinsey BI Platform — performance metrics reporting tool for business analytics using React, Redux, and Saga. Part of a high-load project with multiple Node.js microservices.
+            - text: Under NDA
+        - article [ref=e257]:
+          - generic [ref=e258]:
+            - img "Security Enhancement System" [ref=e259]
+            - generic [ref=e261]: NDA
+          - generic [ref=e262]:
+            - generic [ref=e263]: Backend
+            - heading "Security Enhancement System" [level=3] [ref=e264]
+            - paragraph [ref=e265]: Microfocus AppDefender enhancement — comprehensive security system protecting against vulnerabilities and external attacks, replacing WAF with always-on zero-day protection.
+            - text: Under NDA
+        - article [ref=e266]:
+          - generic [ref=e267]:
+            - img "Accessibility Application" [ref=e268]
+            - generic [ref=e270]: NDA
+          - generic [ref=e271]:
+            - generic [ref=e272]: Full Stack
+            - heading "Accessibility Application" [level=3] [ref=e273]
+            - paragraph [ref=e274]: McKinsey accessibility initiative — prototype application for people with disabilities using React, Redux with NestJS, utilizing Lerna for modular architecture.
+            - text: Under NDA
+    - generic [ref=e275]:
+      - generic [ref=e276]:
+        - generic [ref=e277]: "006"
+        - heading "Contact" [level=2] [ref=e278]
+      - generic [ref=e280]:
+        - generic [ref=e281]:
+          - paragraph [ref=e282]:
+            - text: Let's build something
+            - emphasis [ref=e283]: remarkable
+            - text: together.
+          - generic [ref=e284]:
+            - link " volodymyr.saakian@gmail.com" [ref=e285] [cursor=pointer]:
+              - /url: mailto:volodymyr.saakian@gmail.com
+              - generic [ref=e286]: 
+              - generic [ref=e287]: volodymyr.saakian@gmail.com
+            - generic [ref=e288]:
+              - generic [ref=e289]: 
+              - generic [ref=e290]: +420 728 042 791
+            - generic [ref=e291]:
+              - generic [ref=e292]: 
+              - generic [ref=e293]: Prague, Czech Republic
+        - generic [ref=e294]:
+          - generic [ref=e295]:
+            - generic [ref=e296]:
+              - generic [ref=e297]: Name
+              - textbox "Name" [ref=e298]:
+                - /placeholder: Your name
+            - generic [ref=e299]:
+              - generic [ref=e300]: Email
+              - textbox "Email" [ref=e301]:
+                - /placeholder: your@email.com
+          - generic [ref=e302]:
+            - generic [ref=e303]: Subject
+            - textbox "Subject" [ref=e304]:
+              - /placeholder: What's this about?
+          - generic [ref=e305]:
+            - generic [ref=e306]: Message
+            - textbox "Message" [ref=e307]:
+              - /placeholder: Tell me about your project...
+          - button "Send Message " [ref=e308] [cursor=pointer]:
+            - generic [ref=e309]: Send Message
+            - generic [ref=e310]: 
+  - contentinfo [ref=e311]:
+    - generic [ref=e312]:
+      - generic [ref=e313]: © 2025 Volodymyr Saakian
+      - generic [ref=e314]:
+        - link "" [ref=e315] [cursor=pointer]:
+          - /url: https://linkedin.com/in/vladimir-saakyan
+          - generic [ref=e316]: 
+        - link "" [ref=e317] [cursor=pointer]:
+          - /url: https://github.com/lossless1
+          - generic [ref=e318]: 
+        - link "" [ref=e319] [cursor=pointer]:
+          - /url: mailto:volodymyr.saakian@gmail.com
+          - generic [ref=e320]: 
+      - link " Top" [ref=e321] [cursor=pointer]:
+        - /url: "#hero"
+        - generic [ref=e322]: 
+        - text: Top
+  - text:  
